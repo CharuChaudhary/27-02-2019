@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    color:red;
+}
+.content
+{
+margin-left: 400px;
+display: none;
+}
+.add
+{
+    margin-left:650px;
+    margin-top: 10px;
+}

@@ -1,0 +1,22 @@
+<html>
+<head>
+<title> ToDoList</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="ToDoList.css" type="text/css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+        <h1>To Do List</h1>
+ <div class="content" > 
+<label>Date:</label><input type="date" id="dateId"/>
+<label>Description:</label> <input type="text" id="descriptionArea"/>
+ <button class="btn btn-default btn-sm"  onclick="generate();">
+        <span class="glyphicon glyphicon-ok"></span> Add
+</button>
+ </div>
+ <div class="add">
+ <input type="button" value="Click Me" onclick="displayItems();"/>
+</div>
+</body>
+<script src="ToDoList.js"></script>
+</html>
